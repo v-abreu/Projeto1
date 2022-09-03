@@ -17,7 +17,7 @@ def criadiretorio():
     if os.path.exists('documentos')==False:
         os.mkdir('documentos')
 
-    elif os.path.exists('planilhas')==False:
+    if os.path.exists('planilhas')==False:
         os.mkdir('planilhas')
     
 #função move arquivo para os diretórios criados
